@@ -39,5 +39,3 @@ repos:
     hooks:
       - id: renovate-config-validator
         args: [ --strict ]
-        language_version: 20.18.0
-
