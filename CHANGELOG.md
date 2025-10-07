@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.0...v0.1.1) (2025-10-07)
+
+
+### Miscellaneous Chores
+
+* update refresh interval for secret synchronization ([#19](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/19)) ([1a376e6](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/1a376e6105e1b91966bb13c8d8a810f62622886b))
+
 ## [0.1.0](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.0.1...v0.1.0) (2025-10-07)
 
 
