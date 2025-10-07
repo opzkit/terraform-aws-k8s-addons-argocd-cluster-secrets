@@ -7,7 +7,7 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: cluster
 spec:
-  refreshInterval: 30s
+  refreshInterval: 1h
   secretStoreRef:
     name: external-secrets
     kind: ClusterSecretStore
