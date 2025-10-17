@@ -5,7 +5,7 @@ data "aws_secretsmanager_secrets" "argocd_cluster_secrets" {
   }
 }
 
-data "aws_secretsmanager_secret_version" "secret_version" {
-  for_each  = data.aws_secretsmanager_secrets.argocd_cluster_secrets.names
-  secret_id = each.key
+data "aws_secretsmanager_secret" "argocd_cluster_secrets" {
+  for_each = { for k in data.aws_secretsmanager_secrets.argocd_cluster_secrets.names : k => k }
+  name     = each.key
 }
