@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.2](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.1...v0.1.2) (2025-10-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.101.1 ([#28](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/28)) ([3e71287](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/3e712870cdc881e55893c48259c173c2f6514d18))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.102.0 ([#39](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/39)) ([38de03e](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/38de03e21f2eaae82619f9312f06633055771bf9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.139.1 ([#21](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/21)) ([62dadcf](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/62dadcf4abc4fbebe37205cd03729051eebc22cc))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.140.2 ([#23](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/23)) ([f9fecd2](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/f9fecd22df985759e17de620a2099739f3e93e43))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.141.0 ([#24](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/24)) ([c38021a](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/c38021a6d1f69d78554b0281a4968cffcb0e506c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.142.0 ([#25](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/25)) ([4f89c7d](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/4f89c7dfea66fa9e1c710b92466c0ded3abe9c8c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.0 ([#26](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/26)) ([d0101ee](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/d0101ee9d4cda0cab6da28b505aec5a89ac95603))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.1 ([#27](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/27)) ([3626904](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/362690405c381050dd627fde2f753f263a0f727e))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.143.3 ([#29](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/29)) ([32d3f89](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/32d3f892cbb9045dc13e4806066aa3be9855c065))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.0 ([#30](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/30)) ([6d099b0](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/6d099b00e509a77c96423fa2fbec1f37a2d11d4d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.1 ([#31](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/31)) ([849e6ec](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/849e6eccd1b7d29cd507976d0933f84b95d19280))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.3 ([#32](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/32)) ([1ffcb67](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/1ffcb67ffdeb33b970be40b2773b4a943be8c3cb))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.144.4 ([#33](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/33)) ([b116f19](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/b116f19a2bea5f10c8ff9532a8ef00e46363202c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.1 ([#34](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/34)) ([264f199](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/264f199f79f7a00d538b794de3a2af2540aa68c1))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.145.3 ([#35](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/35)) ([4bd4dd6](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/4bd4dd6f98f18da9275343ce3165ba22e0301695))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.146.0 ([#36](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/36)) ([a4bc8d3](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/a4bc8d3d362540349e757cac717eeceb72eddbb1))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.148.1 ([#38](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/38)) ([b44b701](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/b44b70182892ef0b8180ba9fbff0c4d0ace3bd5b))
+
+
+### Code Refactoring
+
+* update secret handling for improved tag management ([#41](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/41)) ([ee60930](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/ee609306faad6b7c8afa8eebb6c3004d553252d7))
+
+
+### Continuous Integration
+
+* add daily schedule for pre-commit hook updates ([#37](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/37)) ([1e8ef7e](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/1e8ef7e948c6612d9964f4527983a75bcfb42b85))
+* remove outdated schedule for pre-commit hooks ([#40](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/40)) ([e3cae2c](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/e3cae2c116d5b41a01a39f0581a731ab1f74a665))
+
 ## [0.1.1](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.0...v0.1.1) (2025-10-07)
 
 
