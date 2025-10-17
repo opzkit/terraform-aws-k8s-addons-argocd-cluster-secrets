@@ -1,8 +1,8 @@
-%{ for secret in secrets ~}
+%{ for name, tags in secrets ~}
 apiVersion: external-secrets.io/v1
 kind: ExternalSecret
 metadata:
-  name: ${secret.name}
+  name: ${name}
   namespace: argocd
   labels:
     argocd.argoproj.io/secret-type: cluster
@@ -17,6 +17,9 @@ spec:
       metadata:
         labels:
           argocd.argoproj.io/secret-type: cluster
+%{ for key, value in tags ~}
+          ${ key }: ${ value }
+%{ endfor }
       data:
         name: "{{ .name }}"
         server: "{{ .host }}"
@@ -33,6 +36,6 @@ spec:
           }
   dataFrom:
     - extract:
-        key: argocd/clusters/${secret.name}
+        key: argocd/clusters/${name}
 ---
 %{ endfor }
