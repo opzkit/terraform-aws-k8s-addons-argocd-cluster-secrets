@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.3](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.2...v0.1.3) (2025-10-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action digest to 16a9c90 ([#44](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/44)) ([016fdf5](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/016fdf5163750c1b49c5f3bdc2f69e1ce7628e16))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.103.0 ([#42](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/42)) ([ec8389b](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/ec8389b54622d2367975728f8832b110aad4f334))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.1 ([#45](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/45)) ([abbbc4d](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/abbbc4d107bbe75e08f06d1b2ada3031a3a90dbe))
+
 ## [0.1.2](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.1...v0.1.2) (2025-10-17)
 
 
