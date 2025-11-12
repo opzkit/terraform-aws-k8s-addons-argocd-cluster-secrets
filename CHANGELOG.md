@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.2.0...v0.2.1) (2025-11-12)
+
+
+### Miscellaneous Chores
+
+* **ci:** enhance PR auto-merge workflow with token retrieval ([#49](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/49)) ([ef9f761](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/ef9f76107b091563010ba2dd4089bbc1752aa981))
+
 ## [0.2.0](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.2...v0.2.0) (2025-11-11)
 
 
