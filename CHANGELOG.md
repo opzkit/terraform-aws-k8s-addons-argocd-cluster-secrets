@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.1](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.2.0...v0.2.1) (2025-11-25)
+
+
+### Miscellaneous Chores
+
+* **ci:** enhance PR auto-merge workflow with token retrieval ([#49](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/49)) ([ef9f761](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/ef9f76107b091563010ba2dd4089bbc1752aa981))
+* **deps:** update actions/checkout action to v5.0.1 ([#53](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/53)) ([92bb0f2](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/92bb0f271d6bbbaba2a29f2479f8f97023c19aef))
+* **deps:** update actions/checkout action to v6 ([#55](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/55)) ([11c630a](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/11c630a0420ad71db620e590ca5bacb7dfd3408b))
+* **deps:** update actions/checkout digest to 93cb6ef ([#52](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/52)) ([5c99f0e](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/5c99f0eccddc46dd3ca8d3b03592c12ca3745342))
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#56](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/56)) ([62a0262](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/62a0262f376e9d3d4cf0d80e048cfabddd73b2e8))
+* **deps:** update actions/setup-python action to v6.1.0 ([#58](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/58)) ([9e4d960](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/9e4d9603934e49de94104b1e2b72855fcce63331))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#54](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/54)) ([9d1c98a](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/9d1c98a990596ba3192e7d1f2dd6a35666eb3480))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.11.0 ([#51](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/51)) ([7f03418](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/7f03418063397fb2ae68bd8c3ab322b389a8aa1f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.19.3 ([#57](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/issues/57)) ([4c1e67b](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/commit/4c1e67b5a8cd1cdf6a798edb472329d0e0790597))
+
 ## [0.2.0](https://github.com/opzkit/terraform-aws-k8s-addons-argocd-cluster-secrets/compare/v0.1.2...v0.2.0) (2025-11-11)
 
 
