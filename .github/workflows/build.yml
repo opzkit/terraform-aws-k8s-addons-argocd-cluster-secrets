@@ -14,7 +14,7 @@ jobs:
         tf-version: [ 1.3.2 ]
     steps:
       - name: Start LocalStack
-        uses: LocalStack/setup-localstack@2e0e14048ddaf0db551b45fdaa39d3553f2c6399 # v0.3.0
+        uses: LocalStack/setup-localstack@e23ef40712445a2786428c118c31986bca4e9a40 # v0.3.1
         with:
           image-tag: 'latest'
 
