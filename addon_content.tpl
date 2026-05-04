@@ -33,6 +33,17 @@ spec:
                   "insecure": false
                 }
               }
+            {{- else if ne (index . "bearer_token") "" }}
+            name: "{{ .name }}"
+            server: "{{ .host }}"
+            config: |
+              {
+                "bearerToken": "{{ .bearer_token }}",
+                "tlsClientConfig": {
+                  "insecure": false,
+                  "caData": "{{ .cluster_ca_certificate }}"
+                }
+              }
             {{- else }}
             name: "{{ .name }}"
             server: "{{ .host }}"
